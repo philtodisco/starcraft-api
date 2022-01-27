@@ -2,7 +2,7 @@ GET http://localhost:3000/units
 
 ###
 
-GET http://localhost:3000/units
+GET http://localhost:3000/units/61f319016f35bc2f636f7083
 
 ###
 
@@ -17,11 +17,11 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/units
+DELETE http://localhost:3000/units/61f319016f35bc2f636f7083
 
 ###
 
-PATCH http://localhost:3000/units
+PATCH http://localhost:3000/units/61f319016f35bc2f636f7083
 Content-Type: application/json
 
 {

@@ -14,4 +14,9 @@ app.use(express.json())
 const starcraftRouter = require('./routes/units')
 app.use('/units', starcraftRouter)
 
-app.listen(3000, () => console.log('Server Started'))
+// app.listen(3000, () => console.log('Server Started'))
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.warn(`App listening on http://localhost:${PORT}`);
+});
