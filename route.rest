@@ -1,12 +1,12 @@
-GET http://localhost:3000/starcraft
+GET http://localhost:3000/units
 
 ###
 
-GET http://localhost:3000/starcraft
+GET http://localhost:3000/units
 
 ###
 
-POST http://localhost:3000/starcraft
+POST http://localhost:3000/units
 Content-Type: application/json
 
 {
@@ -17,11 +17,11 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/starcraft
+DELETE http://localhost:3000/units
 
 ###
 
-PATCH http://localhost:3000/starcraft
+PATCH http://localhost:3000/units
 Content-Type: application/json
 
 {

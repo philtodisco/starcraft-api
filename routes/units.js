@@ -6,7 +6,7 @@ const Units = require('../models/units')
 router.get('/', async (req, res) => {
     try {
         const units = await Units.find()
-        res.json(unit)
+        res.json(units)
     } catch (err) {
         res.status(500).json({ message: err.message})
     }
