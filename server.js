@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express')
 const app = express ()
 const mongoose = require('mongoose')
-let port = 3000
+let port = process.env.PORT || 3000
 
 mongoose.connect(process.env.DATABASE_URL)
 const db = mongoose.connection
@@ -15,4 +15,4 @@ app.use(express.json())
 const starcraftRouter = require('./routes/units')
 app.use('/units', starcraftRouter)
 
-app.listen(process.env.PORT || port, () => console.log(`Listening at http://localhost:${port}`))
+app.listen(port, () => console.log(`Listening at http://localhost:${port}`))
