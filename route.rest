@@ -1,0 +1,31 @@
+GET http://localhost:3000/starcraft
+
+###
+
+GET http://localhost:3000/starcraft
+
+###
+
+POST http://localhost:3000/starcraft
+Content-Type: application/json
+
+{
+    "name": "Marine",
+    "goodAgainst": "Hydralisk, Immortal, Maruader",
+    "weakAgainst": "Baneling, Colossus, Siege Tank"
+}
+
+###
+
+DELETE http://localhost:3000/starcraft
+
+###
+
+PATCH http://localhost:3000/starcraft
+Content-Type: application/json
+
+{
+    "goodAgainst": "Hydralisk, Immortaasdal, Maruader",
+    "weakAgainst": "Baneling, Colossasdasdus, Siege Tank"
+
+}
