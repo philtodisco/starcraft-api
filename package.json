@@ -1,0 +1,27 @@
+{
+  "name": "starcraft-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/philtodisco/starcraft-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/philtodisco/starcraft-api/issues"
+  },
+  "homepage": "https://github.com/philtodisco/starcraft-api#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.8"
+  },
+  "devDependencies": {
+    "dotenv": "^14.3.2",
+    "nodemon": "^2.0.15"
+  }
+}
