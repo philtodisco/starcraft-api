@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/philtodisco/starcraft-api#readme",
   "dependencies": {
+    "dotenv": "^14.3.2",
     "express": "^4.17.2",
     "mongoose": "^6.1.8",
     "webpack": "^5.67.0",
     "webpack-dev-server": "^4.7.3"
   },
   "devDependencies": {
-    "dotenv": "^14.3.2",
     "nodemon": "^2.0.15"
   }
 }
