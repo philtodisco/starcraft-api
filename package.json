@@ -10,6 +10,9 @@
   "scripts": {
     "devStart": "nodemon server.js"
   },
+  "keywords": [
+    "heroku"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/philtodisco/starcraft-api.git"
