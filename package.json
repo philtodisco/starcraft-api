@@ -2,7 +2,11 @@
   "name": "starcraft-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
+  "engines": {
+    "node": "16.0.0",
+    "npm": "7.10.0"
+  },
   "scripts": {
     "devStart": "nodemon server.js"
   },
