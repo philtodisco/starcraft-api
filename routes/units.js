@@ -24,7 +24,7 @@ router.post('/', async (req, res) => {
         race: req.body.race,
         type: req.body.type,
         targets: req.body.targets,
-        strongAgainst: req.body.goodAgainst,
+        strongAgainst: req.body.strongAgainst,
         weakAgainst: req.body.weakAgainst,
         
     })
@@ -39,10 +39,22 @@ router.post('/', async (req, res) => {
 // update
 router.patch('/:id', getUnits, async (req, res) => {
     if (req.body.name != null) {
-      res.units.name = req.body.name
+        res.units.name = req.body.name
     }
-    if (req.body.goodAgainst != null) {
-      res.units.goodAgainst = req.body.goodAgainst
+    if (req.body.race != null) {
+        res.units.race = req.body.race
+    }
+    if (req.body.type != null) {
+        res.units.type = req.body.type
+    }
+    if (req.body.targets != null) {
+        res.units.targets = req.body.targets
+    }
+    if (req.body.strongAgainst != null) {
+        res.units.strongAgainst = req.body.strongAgainst
+    }
+    if (req.body.weakAgainst != null) {
+        res.units.weakAgainst = req.body.weakAgainst
     }
     try {
       const updatedUnits = await res.units.save()

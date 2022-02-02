@@ -2,13 +2,21 @@ GET http://localhost:3000/units
 
 ###
 
-GET http://localhost:3000/units/61f329b2680ca6f7af2364e1
+GET http://localhost:3000/units/61fb085671225b6828b49468
 
 ###
 
 POST http://localhost:3000/units
 Content-Type: application/json
 
+{
+    "name": "Marine",
+    "race": "Terran",
+    "type": "Ground Unit",
+    "targets": "Ground, Air",
+    "strongAgainst": "Testing",
+    "weakAgainst": "Testing"
+}
 
 ###
 
