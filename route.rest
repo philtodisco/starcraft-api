@@ -12,6 +12,7 @@ Content-Type: application/json
 {
     "name": "Marine",
     "race": "Terran",
+    "description": "Melee boy",
     "type": "Ground Unit",
     "targets": "Ground, Air",
     "strongAgainst": "Testing",
@@ -20,7 +21,7 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:3000/units/61f329b2680ca6f7af2364e1
+DELETE http://localhost:3000/units/61fb0cb7e794da2082102798
 
 ###
 
