@@ -22,8 +22,8 @@ router.post('/', async (req, res) => {
     const units = new Units({
         name: req.body.name,
         race: req.body.race,
-        description: req.body.description,
         type: req.body.type,
+        description: req.body.description,
         targets: req.body.targets,
         strongAgainst: req.body.strongAgainst,
         weakAgainst: req.body.weakAgainst,
@@ -45,11 +45,11 @@ router.patch('/:id', getUnits, async (req, res) => {
     if (req.body.race != null) {
         res.units.race = req.body.race
     }
-    if (req.body.description != null) {
-        res.units.description = req.body.description
-    }
     if (req.body.type != null) {
         res.units.type = req.body.type
+    }
+    if (req.body.description != null) {
+        res.units.description = req.body.description
     }
     if (req.body.targets != null) {
         res.units.targets = req.body.targets

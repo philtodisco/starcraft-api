@@ -9,12 +9,12 @@ const unitsSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    description: {
+    type: {
         type: String,
         required: true
     },
-    type: {
-        type: String,
+    description: {
+    type: String,
         required: true
     },
     targets: {
