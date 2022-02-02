@@ -9,23 +9,16 @@ GET http://localhost:3000/units/61f329b2680ca6f7af2364e1
 POST http://localhost:3000/units
 Content-Type: application/json
 
-{
-    "name": "Marine",
-    "goodAgainst": "Hydralisk, Immortal, Maruader",
-    "weakAgainst": "Baneling, Colossus, Siege Tank"
-}
-
 ###
 
 DELETE http://localhost:3000/units/61f329b2680ca6f7af2364e1
 
 ###
 
-PATCH http://localhost:3000/units/61f329b2680ca6f7af2364e1
+PATCH http://localhost:3000/units/"61f36c42b952af557a325fdd"
 Content-Type: application/json
 
 {
-    "goodAgainst": "Hydralisk, Immortaasdal, Maruader",
-    "weakAgainst": "Baneling, Colossasdasdus, Siege Tank"
+    "description": "test"
 
 }

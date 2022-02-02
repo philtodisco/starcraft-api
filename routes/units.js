@@ -22,7 +22,7 @@ router.post('/', async (req, res) => {
     const units = new Units({
         name: req.body.name,
         goodAgainst: req.body.goodAgainst,
-        weakAgainst: req.body.weakAgainst
+        weakAgainst: req.body.weakAgainst,
     })
     try {
         const newUnits = await units.save()
