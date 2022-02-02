@@ -21,8 +21,12 @@ router.get('/:id', getUnits, (req, res) => {
 router.post('/', async (req, res) => {
     const units = new Units({
         name: req.body.name,
-        goodAgainst: req.body.goodAgainst,
+        race: req.body.race,
+        type: req.body.type,
+        targets: req.body.targets,
+        strongAgainst: req.body.goodAgainst,
         weakAgainst: req.body.weakAgainst,
+        
     })
     try {
         const newUnits = await units.save()
