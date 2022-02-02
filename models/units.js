@@ -5,7 +5,19 @@ const unitsSchema = new mongoose.Schema({
         type: String,
         required: true
     },
-    goodAgainst: {
+    race: {
+        type: String,
+        required: true
+    },
+    type: {
+        type: String,
+        required: true
+    },
+    targets: {
+        type: String,
+        required: true
+    },
+    strongAgainst: {
         type: String,
         required: true
     },
