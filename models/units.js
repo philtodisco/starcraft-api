@@ -19,15 +19,15 @@ const unitsSchema = new mongoose.Schema({
     },
     targets: {
         type: String,
-        required: true
+        required: false
     },
     strongAgainst: {
         type: String,
-        required: true
+        required: false
     },
     weakAgainst: {
         type: String,
-        required: true
+        required: false
     }
     
 })

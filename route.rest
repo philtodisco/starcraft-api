@@ -10,13 +10,13 @@ POST http://localhost:3000/units
 Content-Type: application/json
 
 {
-    "name": "Marine",
-    "race": "Terran",
-    "description": "Melee boy",
-    "type": "Ground Unit",
-    "targets": "Ground, Air",
-    "strongAgainst": "Testing",
-    "weakAgainst": "Testing"
+    "name": "Probe",
+    "race": "Protoss",
+    "type": "Small Ground Unit",
+    "description": "Basic worker unit. Can gather resources and warp in Protoss structures.",
+    "targets": "Ground",
+    "strongAgainst": null,
+    "weakAgainst": null
 }
 
 ###
