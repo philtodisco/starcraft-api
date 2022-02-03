@@ -1,0 +1,443 @@
+[
+ {
+   "name": "Probe",
+   "race": "Protoss",
+   "type": "Small Ground Unit",
+   "description": "Basic worker unit. Can gather resources and warp in Protoss structures.",
+   "targets": "Ground",
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Zealot",
+   "race": "Protoss",
+   "type": "Ground Unit",
+   "description": "Powerful melee warrior.",
+   "targets": "Ground",
+   "strongAgainst": "Marauder, Immortal, Zergling",
+   "weakAgainst": "Hellion, Colossus, Roach"
+ },
+ {
+   "name": "Stalker",
+   "race": "Protoss",
+   "type": "Ground Unit",
+   "description": "Ranged support strider.",
+   "targets": "Ground / Air",
+   "strongAgainst": "Reaper, Void Ray, Mutalisk",
+   "weakAgainst": "Marauder, Immortal, Zergling"
+ },
+ {
+   "name": "Sentry",
+   "race": "Protoss",
+   "type": "Ground Unit",
+   "description": "Energy Manipulator unit. Can use the Force Field, Guardian Shield and Hallucination.",
+   "targets": "Ground / Air",
+   "strongAgainst": "Zealot, Zergling",
+   "weakAgainst": "Stalker, Reaper, Hydralisk"
+ },
+ {
+   "name": "High Templar",
+   "race": "Protoss",
+   "type": "Ground Unit",
+   "description": "Potent psionic master. Can use Feedback and Psionic Storm. Can transform into an Archon.",
+   "targets": "Ground",
+   "strongAgainst": "Marine, Sentry, Hydralisk",
+   "weakAgainst": "Ghost, Colossus, Roach"
+ },
+ {
+   "name": "Dark Templar",
+   "race": "Protoss,",
+   "type": "Ground Unit",
+   "description": "Deadly warrior-assassin. Cloak renders the unit invisible to enemies without detection. Can transform into an Archon.",
+   "targets": "Ground",
+   "strongAgainst": "Probe, SCV, Drone",
+   "weakAgainst": "Observer, Raven, Overseer"
+ },
+ {
+   "name": "Immortal",
+   "race": "Protoss,",
+   "type": "Ground Unit",
+   "description": "Assault strider. Can use Barrier to absorb damage.",
+   "targets": "Ground",
+   "strongAgainst": "Siege Tank, Stalker, Roach",
+   "weakAgainst": "Marine, Zealot, Zergling"
+ },
+ {
+   "name": "Colossus",
+   "race": "Protoss,",
+   "type": "Ground Unit",
+   "description": "Battle strider with a powerful area attack. Can step up or down cliffs. Can be targeted by anti-air weapons.",
+   "targets": "Ground",
+   "strongAgainst": "Marine, Zealot, Zergling",
+   "weakAgainst": "Corruptor, Viking, Tempest"
+ },
+ {
+   "name": "Archon",
+   "race": "Protoss,",
+   "type": "Ground Unit",
+   "description": "Powerful psionic attacker.",
+   "targets": "Ground / Air",
+   "strongAgainst": "Marine, Mutalisk, Adept",
+   "weakAgainst": "Thor, Hydralisk, Immortal"
+ },
+ {
+   "name": "Observer",
+   "race": "Protoss,",
+   "type": "Air Unit",
+   "description": "Flying spy. Cloak renders the unit invisible to enemies without detection.",
+   "targets": null,
+   "strongAgainst": "Dark Templar, Banshee, Roach",
+   "weakAgainst": "Photon Cannon, Missile Turret, Spore Crawler"
+ },
+ {
+   "name": "Warp Prism",
+   "race": "Protoss,",
+   "type": "Air Unit",
+   "description": "Flying transport. Can load and unload units. Can also deploy to create a Psionic Matrix.",
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Phoenix",
+   "race": "Protoss,",
+   "type": "Air Unit",
+   "description": "Can use Graviton beam.",
+   "targets": "Air",
+   "strongAgainst": "Banshee, Void Ray, Mutalisk",
+   "weakAgainst": "Battlecrusier, Carrier, Corruptor"
+ },
+ {
+   "name": "Void Ray",
+   "race": "Protoss,",
+   "type": "Large Air Unit",
+   "description": "Surgical strike craft. ",
+   "targets": "Ground / Air",
+   "strongAgainst": "Corruptor, Battlecruiser, Tempest",
+   "weakAgainst": "Viking, Phoenix, Mutalisk"
+ },
+ {
+   "name": "Carrier",
+   "race": "Protoss,",
+   "type": "Large Air Unit",
+   "description": "Capital Ship. Can build and launch Interceptors to make attacks.",
+   "targets": "Ground / Air",
+   "strongAgainst": "Siege Tank, Mutalisk, Phoenix",
+   "weakAgainst": "Viking, Corruptor, Tempest"
+ },
+ {
+   "name": "Interceptor",
+   "race": "Protoss,",
+   "type": "Air Unit",
+   "description": "Combat drones that automatically strafe their Carrier's target. Carriers can not attack without Interceptors.",
+   "targets": "Ground / Air",
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Mothership",
+   "race": "Protoss,",
+   "type": "Large Air Unit",
+   "description": "Ultimate Protoss Vessel. Can use Vortex and Mass Recall. Cloaks nearby units and structures.",
+   "targets": "Ground / Air",
+   "strongAgainst": null,
+   "weakAgainst": "Viking, Corruptor, Void Ray"
+ },
+ {
+   "name": "SCV",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Basic worker unit. Can gather resources, build Terran structures, and repair.",
+   "targets": "Ground",
+   "strongAgainst": null,
+   "weakAgainst": "null,"
+ },
+ {
+   "name": "MULE",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Prototype harvesting unit. Gathers minerals more quickly than regular SCVs. MULEs last 64 seconds before their systems fail.",
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": "null,"
+ },
+ {
+   "name": "Marine",
+   "race": "Terran,",
+   "type": "Small Ground Unit",
+   "description": "General-purpose infantry.",
+   "targets": "Ground / Air",
+   "strongAgainst": "Hydralisk, Immortal, Marauder",
+   "weakAgainst": "Baneling, Colossus, Siege Tank"
+ },
+ {
+   "name": "Marauder",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Heavy assault infantry.",
+   "targets": "Ground",
+   "strongAgainst": "Stalker, Roach, Thor",
+   "weakAgainst": "Marine, Zergling, Zealot"
+ },
+ {
+   "name": "Reaper",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Raider. Capable of jumping up and down cliffs. Heals when out of combat.",
+   "targets": "Ground",
+   "strongAgainst": "Probe, SCV, Drone",
+   "weakAgainst": "Stalker, Maruader, Roach"
+ },
+ {
+   "name": "Ghost",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Sniper. Can use Steady Targeting, EMP Round and be upgraded to use Cloak. Can call down Tactical Nukes built at the Ghost Academy.",
+   "targets": "Ground / Air",
+   "strongAgainst": "High Templar, Raven, Infestor",
+   "weakAgainst": "Stalker, Marauder, Zergling"
+ },
+ {
+   "name": "Hellion",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Fast scout. Has a flame attack that damages all enemy units in its line of fire.",
+   "targets": "Ground",
+   "strongAgainst": "Marine, Zealot, Zergling",
+   "weakAgainst": "Marauder, Roach, Stalker"
+ },
+ {
+   "name": "Siege Tank",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Heavy Tank. Can switch into Siege Mode to provide long-range artillery support.",
+   "targets": "Ground",
+   "strongAgainst": "Marine, Roach, Stalker",
+   "weakAgainst": "Banshee, Mutalisk, Immortal"
+ },
+ {
+   "name": "Thor",
+   "race": "Terran,",
+   "type": "Ground Unit",
+   "description": "Heavy Assault Mech.",
+   "targets": "Ground",
+   "strongAgainst": "Marine, Mutalisk, Stalker",
+   "weakAgainst": "Marauder, Zergling, Immortal"
+ },
+ {
+   "name": "Auto Turret",
+   "race": "Terran,",
+   "type": "Armored Ground Unit",
+   "description": "Automated defensive turret. Times out after 10 seconds.",
+   "targets": "Ground / Air",
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Viking",
+   "race": "Terran,",
+   "type": "Air Unit",
+   "description": "Durable support flyer. Loaded with strong anti-capital air missiles. Can switch into Assault Mode to attack ground units.",
+   "targets": "Ground",
+   "strongAgainst": "Battlecruiser, Brood Lord, Tempest",
+   "weakAgainst": "Marine, Hydralisk, Stalker"
+ },
+ {
+   "name": "Medivac",
+   "race": "Terran,",
+   "type": "Air Unit",
+   "description": "Terran air transport ship. Can also heal biological units.",
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Raven",
+   "race": "Terran,",
+   "type": "Air Unit",
+   "description": "Aerial support unit. Can use Auto Turret, Point Defense Drone and Seeker Missiles abilities.",
+   "targets": null,
+   "strongAgainst": "Dark Templar, Banshee, Roach",
+   "weakAgainst": "Phoenix, Ghost, Corruptor"
+ },
+ {
+   "name": "Banshee",
+   "race": "Terran,",
+   "type": "Air Unit",
+   "description": "Tactical strike aircraft.",
+   "targets": "Ground",
+   "strongAgainst": "Colossus, Ultralisk, Siege Tank",
+   "weakAgainst": "Hydralisk, Phoenix, Viking"
+ },
+ {
+   "name": "Battlecruiser",
+   "race": "Terran,",
+   "type": "Air Unit",
+   "description": "Powerful warship. Can be upgraded with the Yamato Cannon and Tactical Jump ability.",
+   "targets": "Ground",
+   "strongAgainst": "Carrier, Mutalisk, Thor",
+   "weakAgainst": "Viking, Void Ray, Corruptor"
+ },
+ {
+   "name": "Point Defense Drone",
+   "race": "Terran,",
+   "type": "Small Air Unit",
+   "description": "Uses a laser to shoot down enemy missiles within range 8 (9) at the cost of 10 energy. Cannot target special attacks. Times out after 14 seconds.",
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Larva",
+   "race": "Zerg,",
+   "type": "Small Ground Unit",
+   "description": "Morphs into Zerg units.",
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Cocoon",
+   "race": "Zerg,",
+   "type": "Small Ground Unit",
+   "description": null,
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Drone",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Basic worker unit. Can harvest minerals and Vespene Gas. Can mutate into structures.",
+   "targets": "Ground",
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Queen",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Defensive unit. Can spawn Creep Tumors, spawn Larva, and use the Transfusion ability. Moves much faster on creep.",
+   "targets": "Ground",
+   "strongAgainst": "Void Ray, Hellion, Mutalisk",
+   "weakAgainst": "Zealot, Marine, Zergling"
+ },
+ {
+   "name": "Zergling",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Fast melee creature. Can morph into a Baneling.",
+   "targets": "Ground",
+   "strongAgainst": "Marauder, Stalker, Hydralisk",
+   "weakAgainst": "Hellion, Colossus, Baneling"
+ },
+ {
+   "name": "Baneling",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Kamikaze unit. Does damage over a small area.",
+   "targets": "Ground",
+   "strongAgainst": "Marine, Zergling, Zealot",
+   "weakAgainst": "Marauder, Roach, Stalker"
+ },
+ {
+   "name": "Roach",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Assault unit. Regenerates health quickly when burrowed.",
+   "targets": "Ground",
+   "strongAgainst": "Hellion, Zealot, Zergling",
+   "weakAgainst": "Marauder, Immortal, Ultralisk"
+ },
+ {
+   "name": "Hydralisk",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Ranged attacker.",
+   "targets": "Ground / Air",
+   "strongAgainst": "Banshee, Mutalisk, Void Ray",
+   "weakAgainst": "Siege Tank, Zergling, Colossus"
+ },
+ {
+   "name": "Infestor",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Infestation specialist. Can move while burrowed. Can use Fungal Growth, Neural Parasite, and Microbial Shroud abilities.",
+   "targets": null,
+   "strongAgainst": "Immortal, Marine, Mutalisk",
+   "weakAgainst": "Ghost, Ultralisk, High Templar"
+ },
+ {
+   "name": "Ultralisk",
+   "race": "Zerg,",
+   "type": "Ground Unit",
+   "description": "Heavy assault beast /w PBAoE damage attack.",
+   "targets": "Ground",
+   "strongAgainst": "Marine, Zergling, Zealot",
+   "weakAgainst": "Ghost, Brood Lord, Immortal"
+ },
+ {
+   "name": "Broodling",
+   "race": "Zerg,",
+   "type": "Small Ground Unit",
+   "description": "Fast melee creature that will last for a short duration.",
+   "targets": "Ground",
+   "strongAgainst": null,
+   "weakAgainst": "null,"
+ },
+ {
+   "name": "Nydus Worm",
+   "race": "Zerg,",
+   "type": "Armored Ground Structure",
+   "description": "Friendly ground units can use a Nydus Worm to instantly travel to any other Nydus Worm or Nydus Network owned by the player. Grows creep used to feed nearby Zerg structures.",
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Overlord",
+   "race": "Zerg,",
+   "type": "Air Unit",
+   "description": "Provides 8 supply, which raises the maximum number of units available. Can morph into Overseer and a \"Dropperlord\" with Ventral Sacs.",
+   "targets": null,
+   "strongAgainst": null,
+   "weakAgainst": null
+ },
+ {
+   "name": "Overseer",
+   "race": "Zerg,",
+   "type": "Air Unit",
+   "description": "Advanced aerial observer. Maintains the unit cap set by the Overlord. Can use Spawn Changeling and Contaminate.",
+   "targets": null,
+   "strongAgainst": "Dark Templar, Banshee, Roach",
+   "weakAgainst": "Stalker, Viking, Mutalisk"
+ },
+ {
+   "name": "Mutalisk",
+   "race": "Zerg,",
+   "type": "Air Unit",
+   "description": "Air unit that bounces its shot to strike multiple targets.",
+   "targets": "Ground / Air",
+   "strongAgainst": "Brood Lord, Viking, Void Ray",
+   "weakAgainst": "Corruptor, Phoenix, Liberator, Thor"
+ },
+ {
+   "name": "Corruptor",
+   "race": "Zerg,",
+   "type": "Medium Air Unit",
+   "description": "Anti-air flyer. Can use Caustic Spray. Can morph into Brood Lord.",
+   "targets": "Air",
+   "strongAgainst": "Battlecruiser, Mutalisk, Phoenix",
+   "weakAgainst": "Viking, Hydralisk, Void Ray"
+ },
+ {
+   "name": "Brood Lord",
+   "race": "Zerg,",
+   "type": "Air Unit",
+   "description": "Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.",
+   "targets": "Ground",
+   "strongAgainst": "Stalker, Marine, Hydralisk",
+   "weakAgainst": "Corruptor, Void Ray, Viking"
+ }
+]

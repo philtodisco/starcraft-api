@@ -10,13 +10,13 @@ POST http://localhost:3000/units
 Content-Type: application/json
 
 {
-    "name": "Probe",
-    "race": "Protoss",
-    "type": "Small Ground Unit",
-    "description": "Basic worker unit. Can gather resources and warp in Protoss structures.",
+"name": "Queen",
+    "race": "Zerg",
+    "type": "Ground Unit",
+    "description": "Defensive unit. Can spawn Creep Tumors, spawn Larva, and use the Transfusion ability. Moves much faster on creep.",
     "targets": "Ground",
-    "strongAgainst": null,
-    "weakAgainst": null
+    "strongAgainst": "Void Ray, Hellion, Mutalisk",
+    "weakAgainst": "Zealot, Marine, Zergling"
 }
 
 ###
