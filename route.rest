@@ -10,13 +10,13 @@ POST http://localhost:3000/units
 Content-Type: application/json
 
 {
-"name": "Queen",
-    "race": "Zerg",
-    "type": "Ground Unit",
-    "description": "Defensive unit. Can spawn Creep Tumors, spawn Larva, and use the Transfusion ability. Moves much faster on creep.",
-    "targets": "Ground",
-    "strongAgainst": "Void Ray, Hellion, Mutalisk",
-    "weakAgainst": "Zealot, Marine, Zergling"
+  "name": "Brood Lord",
+   "race": "Zerg,",
+   "type": "Air Unit",
+   "description": "Flying heavy-assault unit. Shoots Broodlings at its target. A Broodling is a small creature that can attack ground units.",
+   "targets": "Ground",
+   "strongAgainst": "Stalker, Marine, Hydralisk",
+   "weakAgainst": "Corruptor, Void Ray, Viking"
 }
 
 ###
